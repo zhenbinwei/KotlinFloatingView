@@ -23,3 +23,17 @@ dependencies {
 <!-- 在 屏幕最顶部显示addview-->
 <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
 ```
+**如何使用**
+
+```
+//创建实例对象
+FloatingWindow  floatingWindow=new FloatingWindow(this);
+//设置展开的布局
+floatingWindow.addRealContentView(View.inflate(this,R.layout.test,null));
+//设置悬浮窗图标
+floatingWindow.setMiniWindowIcon(R.mipmap.ic_launcher_round);
+//显示
+floatingWindow.addFloatingWindow();
+//关闭
+floatingWindow.removeFloatingWindow();
+```
