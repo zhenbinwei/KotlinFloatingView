@@ -1,5 +1,5 @@
 # KotlinFloatingView
-**如何引入**
+### 如何引入
 
 在项目根 build.gradle 添加
 ```
@@ -23,7 +23,7 @@ dependencies {
 <!-- 在 屏幕最顶部显示addview-->
 <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
 ```
-**如何使用**
+### 如何使用
 
 ```
 //创建实例对象
